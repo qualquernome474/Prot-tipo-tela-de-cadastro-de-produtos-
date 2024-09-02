@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela Do Feirante</title>
+    <link rel="stylesheet" href="StyleFeirante.css">
+    <script src="js.js"></script> 
+</head>
+
+<body>
+    <div class="barralogo">
+
+        <div class="nomeOUROFEIRA">
+            <h1 style="color: #FD914D;">Ouro feira</h1>
+        </div>
+
+        <div class="logocanto">
+            <img src="logo.png" alt="" height="125" width="">
+        </div>
+    </div>
+    <h2 style="color: #FD914D;">Perfil do feirante</h2>
+        
+    <div class="topleft">
+        <img src="barraca1.jpg" alt="">
+    </div>
+    <button id="botaovoltar" class="botao">Voltar</button>
+    <button id="botaoremoverproduto" class="botao">Remover produto</button>
+
+    <a href="telaadicionatprodutos.html"><button id="botaoadicionarproduto" class="botao">Adicionar produto</button></a>
+
+    <h2 style="color: #FD914D;" class="texto1">Selecione uma das opções para visualizar seus produtos anunciados</h2>
+    
+    <select class="menuitens" id="listaitens">
+        <option value="null">Escolha o filtro</option>
+        <option value="comida">Comida</option>
+        <option value="bebida">Bebidas</option>
+        <option value="artesanato">Artesanato</option>
+    </select>
+
+    <div id="galeria"></div>
+
+
+    
+
+</body>
+
+</html>

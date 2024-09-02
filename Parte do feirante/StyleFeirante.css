@@ -1,0 +1,131 @@
+.barralogo {
+  background-color: #474747;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  height: 83px; /* Altura da tarja */
+}
+
+body {
+  background-color: #757474; /* Cor de fundo da página */
+}
+
+
+.topleft img {
+  border-radius: 50%; /* Faz a imagem redonda */
+  object-fit: cover; /* Ajusta a imagem para preencher o contêiner */
+  height: 150px;
+  width: 150px;
+}
+
+.topleft {
+  position: absolute;
+  top: 25%;
+  left: 2%;
+}
+
+.menuitens {
+  position: absolute;
+  margin-top: 1%;
+  left: 25%;
+  padding: 5px;
+}
+
+.texto1 {
+  position: relative;
+  margin-top: 3%;
+  left: 25%;
+}
+
+#galeria {
+  display: flex;
+  flex-wrap: wrap; /* Permite que os itens se movam para a linha seguinte se não houver espaço suficiente */
+  margin-top: 10%;
+  margin-left: 25%;
+}
+
+.imagem-container {
+  display: flex; /* Alinha a imagem e a descrição em linha */
+  align-items: flex-start; /* Alinha a imagem ao topo do contêiner */
+  margin-bottom: 20px; /* Espaçamento inferior entre os itens */
+  border: 3px solid #656565; /* Borda ao redor do contêiner */
+  padding: 10px; /* Espaçamento interno do contêiner */
+  background-color: #474747; /* Cor de fundo para o contêiner */
+  
+}
+
+.imagem-container img {
+  margin-right: 20px; /* Espaçamento entre a imagem e a descrição */
+  max-width: 200px; /* Limita a largura máxima da imagem */
+  height: auto; /* Mantém a proporção da imagem */
+  
+  
+}
+
+.descricao-imagem {
+  font-size: 16px; /* Ajusta o tamanho da fonte */
+  color: #FD914D; /* Cor do texto */
+  font-weight: bold;
+  line-height: 1.5; /* Espaçamento entre linhas */
+  
+}
+
+.botao {
+  position: relative;
+  margin-top: 2%;
+  left: 25%;
+  padding: 10px;
+}
+
+.FormularioCadastroProdutos{
+  margin-top: 1%;
+  text-align: center;
+  font-size: 20px;
+
+}
+
+.logocanto {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 18px;
+}
+
+.nomeOUROFEIRA{
+  display: absolute;
+  text-align: center;
+
+}
+
+.FormularioCadastroProdutos{
+  margin-top: 1%;
+  text-align: center;
+
+}
+
+.FormularioCadastroProdutos input{
+  font-size: 13px;
+  font-weight: bold;
+  padding: 5px;
+  
+
+}
+.FormularioCadastroProdutos select{
+  padding: 10px;
+
+}
+
+.FormularioCadastroProdutos label{
+  font-size: 20px;
+  font-weight: bold;
+  
+  color: #FD914D;
+
+}
+
+.FormularioCadastroProdutos input[class="botaoformcadsprodut"]{
+  margin-top: 1%;
+  margin-left: 10px;
+  padding: 10px;
+}
+

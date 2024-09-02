@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela De Cadastro de Produtos</title>
+    <link rel="stylesheet" href="StyleFeirante.css">
+    <script src="js.js"></script>
+</head>
+
+<body>
+
+    <div class="barralogo">
+
+        <div class="nomeOUROFEIRA">
+            <h1 style="color: #FD914D;">Ouro feira</h1>
+        </div>
+
+        <div class="logocanto">
+            <img src="logo.png" alt="" height="125" width="">
+        </div>
+
+    </div>
+        <br><br><br>
+
+        <form class="FormularioCadastroProdutos" action="" method="post">
+
+            <label for="txtNome">Nome do produto: </label>
+            <input type="text" name="txtNome" id="txtNome" placeholder="Informe o nome do produto">
+            <br><br>
+
+            <label for="">Validade: </label>
+            <input type="date" name="" id=""><input type="radio" class="naoperecivel" name=""
+                value="Naoperecivel"><label for="">Não perecível </label>
+            <br><br>
+            <label for="">Preço: </label>
+            <input type="text" name="txtpreco" id="txtpreco">
+            <br><br>
+            <label for="">Quantidade: </label>
+            <input type="text" name="txtquant" id="txtquant">
+
+
+            <br><br>
+
+
+
+            <label for="">Categoria: </label>
+            <select>
+                <option value="null">Selecione a categoria</option>
+                <option value="comida">Comida</option>
+                <option value="bebida">Bebidas</option>
+                <option value="artesanato">Artesanato</option>
+            </select>
+            <br><br><br><br>
+
+            <label for="">Descrição: </label>
+            <textarea name="" cols="30" rows="30" id=""></textarea>
+            <br><br>
+            <input class="botaoformcadsprodut" type="submit" value="Enviar">
+            <a href="TelaInicialFeirante.html"><input class="botaoformcadsprodut" type="button" value="Cancelar"></a>
+            <input class="botaoformcadsprodut" type="reset" value="Limpar formulário">
+
+
+        </form>
+</body>
+
+</html>
